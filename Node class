@@ -17,3 +17,36 @@ class Node
             }
 
 }
+
+class Tree
+{
+           
+
+    private Node root;
+
+    public Tree()
+    {
+        root = null;
+    }
+    public void insert(int id, double dd){
+    }
+    public boolean find(int key){
+    }
+     public Node boolean delete(int id){   
+     }
+
+    public Node find(int key)
+    {
+        Node current = root;
+        while(current.idata != key)
+        {
+            if(key < current.idata)
+                current = current.leftChild;
+            else
+                current = current.rightChild;
+            if(current == null)
+                return null;
+        }
+        return current;
+    }
+} 
