@@ -1,0 +1,19 @@
+//binary search Node
+
+class Node
+{
+    public int idata;
+    public double dData;
+    public Node leftChild;
+    public Node rightChild;
+
+ public void displayNode(){
+           System.out.print("{");
+              System.out.print(idata);
+                System.out.print(",");
+                System.out.print(dData);
+                System.out.print("}");
+
+            }
+
+}
